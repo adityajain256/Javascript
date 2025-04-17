@@ -26,13 +26,43 @@
 
 //q2 is to find vowels in a string
 
-let str = "Aditya jain";
-let count = 0;
+// let str = "Aditya jain";
+// let count = 0;
 
 
-for(let i of str.toLowerCase()){
-    if(i == 'a' || i== 'e' || i=='o' || i=='i' || i== 'u'){
-        count = count + 1;
-    }
-}
-console.log(count);
+// for(let i of str.toLowerCase()){
+//     if(i == 'a' || i== 'e' || i=='o' || i=='i' || i== 'u'){
+//         count = count + 1;
+//     }
+// }
+// console.log(count);
+
+// create a function for above code 
+
+// function numOfVowels(str){
+//     let count = 0;
+//     for(let i of str){
+//         if(i=='a' || i =='o' || i=='e' || i=='i' || i=='u'){
+//             count++;
+//         }
+//     }
+//      return count;
+// }
+
+// let nnumber = numOfVowels('adi');
+
+// console.log(nnumber)
+
+//arrowfunction for above function 
+
+// const NoV = (str) =>{
+//     let count = 0;
+//     for(let i of str){
+//         if(i=='a' || i =='o' || i=='e' || i=='i' || i=='u'){
+//             count++;
+//         }
+//     }
+//      return count;
+// }
+
+// console.log(NoV('adityajaind'));
