@@ -1,0 +1,17 @@
+/* #div{
+    background-color: beige;
+    color: aqua;
+}
+
+p{
+    color: black;
+} */
+.lightBody{
+    background-color: white;
+    color: black;
+}
+
+.darkBody{
+    background-color: black;
+    color: white;
+}
