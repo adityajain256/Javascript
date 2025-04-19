@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: aqua;
+}
+
+#container{
+    background-color:bisque;
+    color: black;
+}
+
+.item{
+    padding: 15px;
+    background-color:brown;
+    color: white;
+    margin: 40px;
+}
+
+.heading{
+    color: red;
+    background-color: white;
+    padding: 43px;
+}
+
+.newH{
+    color: white;
+    background-color: red;
+}
