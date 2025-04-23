@@ -38,4 +38,4 @@ async function oreder(food){
 
 }
 
-oreder('aditya jain');
+oreder('Tanishka jain');
