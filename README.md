@@ -1,5 +1,7 @@
 Requirements: for project inside local storage named as storingData.html , storingData.css and 
 storingData.js
+
+
 	1	Add multiple users
 	◦	Instead of replacing the data each time, store all users in an array in localStorage.
 	◦	Each user should have a name and age.
