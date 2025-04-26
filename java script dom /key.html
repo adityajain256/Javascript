@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #2c3e50;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      height: 100vh;
+      width: 100vw;
+    }
+  </style>
+  <body>
+    <h1>Know what you tap on your keyBoard</h1>
+    <div class="container"></div>
+    <script>
+      const container = document.querySelector(".container");
+
+      window.addEventListener("keydown", (e) => {
+        const key = (e.key === " "? 'space': e.key);
+        const keyCode = e.keyCode;
+        const code = e.code;
+        
+        
+
+        container.innerHTML = `
+            <table>
+  <tr>
+    <th>key</th>
+    <th>keyCode</th>
+    <th>code</th>
+  </tr>
+  <tr>
+    <td>${key}</td>
+    <td>${keyCode}</td>
+    <td>${code}</td>
+  </tr>
+  
+</table>`;
+      });
+    </script>
+  </body>
+</html>
